@@ -1,0 +1,81 @@
+*, *::before, *::after {box-sizing: inherit;} 
+
+html{
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    width: 100%;
+}
+/* NAV CSS */
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgba(250, 250, 250, 0.527)
+}
+.solid{
+    margin: 0 auto;
+    border-top: 1px solid rgba(219, 218, 218, 0.719)
+}
+/* Search Bar CSS */
+#logo{
+    width: 6em;
+}
+.search-bar {
+    padding: .8em 14em;
+    position: relative;
+    margin: 0 1em;
+    border-radius: 3px;
+}
+.search-bar:hover{
+    box-shadow: rgba(218, 213, 213, 0.884);
+}
+#glass {
+    position: absolute;
+    margin-left: -1.6em;
+    margin-top: .2em;
+}
+.logo-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    max-width: 600px;
+}
+.login{
+    background-color:rgb(58, 162, 247); 
+    color: white;
+    font-weight: bold;
+    padding: .2em 1.5em;
+    border-radius: 3px;
+    border-style: none;
+}
+/*End of Search Bar CSS*/
+.nav-icons{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1em;
+}
+li {
+    list-style: none;
+    
+}
+.nav-2{
+    display: flex;
+    flex-direction:row;
+    font-size: .8rem;
+    justify-content: space-between;
+    padding-left: .9em;
+
+}
+ul{
+    margin: 2em 0;
+    margin-bottom: 1em;
+}
+ul li {
+    box-sizing: content-box;
+    display: inline;
+    padding: 0 .3em;
+    text-align: left;
+}

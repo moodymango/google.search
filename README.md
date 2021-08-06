@@ -1,2 +1,3 @@
 # google.search
-HTML and CSS practice
+Having a hard time linking my previous homepage project to this new project.
+
