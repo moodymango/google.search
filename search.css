@@ -27,6 +27,7 @@ body {
     position: relative;
     margin: 0 1em;
     border-radius: 3px;
+    border-color:rgba(248, 244, 244, 0.952)
 }
 .search-bar:hover{
     box-shadow: rgba(218, 213, 213, 0.884);
@@ -47,19 +48,19 @@ body {
     background-color:rgb(58, 162, 247); 
     color: white;
     font-weight: bold;
-    padding: .2em 1.5em;
+    margin-bottom: 4em;
+    padding: .1em .5em;
     border-radius: 3px;
     border-style: none;
+}
+#nav-grid{
+    margin-right: .5em;
 }
 /*End of Search Bar CSS*/
 .nav-icons{
     display: flex;
     flex-direction: row;
     margin-right: 1em;
-}
-li {
-    list-style: none;
-    
 }
 .nav-2{
     display: flex;
@@ -72,10 +73,16 @@ li {
 ul{
     margin: 2em 0;
     margin-bottom: 1em;
+    list-style: none;
+    color:rgba(63, 63, 63, 0.699);
 }
 ul li {
     box-sizing: content-box;
     display: inline;
     padding: 0 .3em;
     text-align: left;
+    cursor: grab;
+}
+li:hover {
+    font-weight:bold black; 
 }
