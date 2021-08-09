@@ -23,7 +23,7 @@ body {
     width: 6em;
 }
 .search-bar {
-    padding: .8em 14em;
+    padding: .8em 20em;
     position: relative;
     margin: 0 1em;
     border-radius: 3px;
@@ -85,4 +85,34 @@ ul li {
 }
 li:hover {
     font-weight:bold black; 
+}
+/*SEARCH PAGE */
+.search-results{
+    max-width: 600px;
+    margin-left: 6rem;
+    font-size: 14px;
+}
+.search-1{
+    border: 1px solid rgba(199, 198, 198, 0.952);
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+}
+.rm {
+    list-style-type: none;
+    color: rgba(143, 142, 142, 0.952);
+    cursor: pointer;
+}
+ol li{
+    margin: .5rem 0;
+}
+/* Search-URLS */
+.search-2{
+    margin: 1.5em;
+}
+.url {
+    color:green;
+    font-size: .8rem;
+}
+.s-1, .s-2, .s-3, .s-4, .s-5, .s-6, .s-7, .s-8, .s-9{
+   margin: 0;
 }
