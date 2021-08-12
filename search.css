@@ -71,6 +71,10 @@ body {
     padding-left: .9em;
 
 }
+#icons {
+    padding: .2em .1em;
+    font-size: 15px;
+}
 ul{
     margin: 2em 0;
     margin-bottom: 1em;
@@ -88,6 +92,11 @@ li:hover {
     font-weight:bold black; 
 }
 /*SEARCH PAGE */
+.amount {
+    margin-left: 6rem;
+    font-size: .8rem;
+    color:rgba(104, 103, 103, 0.747)
+}
 .search-results{
     max-width: 600px;
     margin-left: 6rem;
@@ -162,16 +171,73 @@ position:relative;
     justify-content: center;
     color: #101111a1;
 }
-
-
 .help span , .location span {
     padding: 0 1em;
 }
-
 .help, .location{
     display:flex;
     flex-direction: row;
     margin-top: 1em;
     margin-left: 100px;
+
+}
+/* GOOGLE SEARCH Letters */
+.google-letters{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2rem;
+    max-width: 600px;
+    margin-left: 6rem;
+
+}
+.gle{
+    display: flex;
+    flex-direction: row;
+    margin-left: -..09em;
+}
+.O p, .next {
+    color: rgb(58, 162, 247); 
+}
+.O p:hover, .next:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
+#yellow-o {
+    color: rgb(235, 202, 19);
+    text-decoration: none;
+    padding: ;
+}
+.red, #red{
+    color:red;
+    text-decoration: none;
+}
+.blue {
+    color:blue;
+}
+.green {
+    color: green;
+}
+#black {
+    color:black;
+}
+#arrow {
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px 0 5px;
+}
+.numbers {
+    font-size: 1rem;
+}
+.next {
+    font-size: 1rem;
+    margin-left:.8em;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+#next {
+    margin-top: .7em;
 
 }
